@@ -188,7 +188,7 @@
 
 ## [4.0.2]
 
-- Delete print on fluttertoast_web
+- Delete print on fluttertoast_no_web_web
 
 ## [4.0.1]
 
@@ -214,7 +214,7 @@
 
 - Migrated to AndroidX
 
-##[3.0.6]
+## [3.0.6]
 
 - iOS build failed fixed
 

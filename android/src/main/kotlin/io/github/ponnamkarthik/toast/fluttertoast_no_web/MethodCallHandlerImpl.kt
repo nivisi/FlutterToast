@@ -1,4 +1,4 @@
-package io.github.ponnamkarthik.toast.fluttertoast
+package io.github.ponnamkarthik.toast.fluttertoast_no_web
 
 import android.app.Activity
 import android.content.Context

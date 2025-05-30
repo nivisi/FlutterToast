@@ -1,4 +1,4 @@
-package io.github.ponnamkarthik.toast.fluttertoast
+package io.github.ponnamkarthik.toast.fluttertoast_no_web
 
 import android.content.Context
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -19,7 +19,7 @@ public class FlutterToastPlugin: FlutterPlugin {
   }
 
   private fun setupChannel(messenger: BinaryMessenger, context: Context,) {
-    channel = MethodChannel(messenger, "PonnamKarthik/fluttertoast",)
+    channel = MethodChannel(messenger, "PonnamKarthik/fluttertoast_no_web",)
     val handler = MethodCallHandlerImpl(context,)
     channel?.setMethodCallHandler(handler,)
   }

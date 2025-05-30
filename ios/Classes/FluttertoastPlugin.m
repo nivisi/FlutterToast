@@ -1,7 +1,7 @@
 #import "FluttertoastPlugin.h"
 #import "UIView+Toast.h"
 
-static NSString *const CHANNEL_NAME = @"PonnamKarthik/fluttertoast";
+static NSString *const CHANNEL_NAME = @"PonnamKarthik/fluttertoast_no_web";
 
 @interface FluttertoastPlugin ()
 @property(nonatomic, retain) FlutterMethodChannel *channel;
