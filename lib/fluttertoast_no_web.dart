@@ -45,7 +45,7 @@ enum ToastGravity {
 class Fluttertoast {
   /// [MethodChannel] used to communicate with the platform side.
   static const MethodChannel _channel =
-      const MethodChannel('PonnamKarthik/fluttertoast');
+      const MethodChannel('PonnamKarthik/fluttertoast_no_web');
 
   /// Let say you have an active show
   /// Use this method to hide the toast immediately

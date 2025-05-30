@@ -1,14 +1,14 @@
-#import "FluttertoastPlugin.h"
+#import "FluttertoastNoWebPlugin.h"
 #import "UIView+Toast.h"
 
-static NSString *const CHANNEL_NAME = @"PonnamKarthik/fluttertoast";
+static NSString *const CHANNEL_NAME = @"PonnamKarthik/fluttertoast_no_web";
 
-@interface FluttertoastPlugin ()
+@interface FluttertoastNoWebPlugin ()
 @property(nonatomic, retain) FlutterMethodChannel *channel;
 @property(nonatomic, assign) BOOL isKeyboardVisible;
 @end
 
-@implementation FluttertoastPlugin {
+@implementation FluttertoastNoWebPlugin {
     FlutterResult _result;
 
 }
@@ -17,7 +17,7 @@ static NSString *const CHANNEL_NAME = @"PonnamKarthik/fluttertoast";
     FlutterMethodChannel *channel = [FlutterMethodChannel
             methodChannelWithName:CHANNEL_NAME
                   binaryMessenger:[registrar messenger]];
-    FluttertoastPlugin *instance = [[FluttertoastPlugin alloc] init];
+    FluttertoastNoWebPlugin *instance = [[FluttertoastNoWebPlugin alloc] init];
     instance.channel = channel;
     [registrar addMethodCallDelegate:instance channel:channel];
 

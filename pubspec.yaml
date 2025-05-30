@@ -1,4 +1,4 @@
-name: fluttertoast
+name: fluttertoast_no_web
 description: Toast Library for Flutter, Easily create toast messages in single line of code
 version: 8.2.11
 homepage: https://github.com/PonnamKarthik/FlutterToast
@@ -16,9 +16,9 @@ flutter:
   plugin:
     platforms:
       android:
-        package: io.github.ponnamkarthik.toast.fluttertoast
-        pluginClass: FlutterToastPlugin
+        package: io.github.ponnamkarthik.toast.fluttertoast_no_web
+        pluginClass: FluttertoastNoWebPlugin
       ios:
-        pluginClass: FluttertoastPlugin
+        pluginClass: FluttertoastNoWebPlugin
   assets:
     - assets/

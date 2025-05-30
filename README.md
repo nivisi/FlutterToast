@@ -1,4 +1,4 @@
-# [fluttertoast](https://pub.dev/packages/fluttertoast)
+# [fluttertoast_no_web](https://pub.dev/packages/fluttertoast_no_web)
 
 Toast Library for Flutter
 
@@ -31,11 +31,11 @@ This one has limited features and no control over UI
 
 ```yaml
 # add this line to your dependencies
-fluttertoast: ^8.2.11
+fluttertoast_no_web: ^8.2.11
 ```
 
 ```dart
-import 'package:fluttertoast/fluttertoast.dart';
+import 'package:fluttertoast_no_web/fluttertoast_no_web.dart';
 ```
 
 ## Toast with No Build Context (Android & iOS)
